@@ -64,9 +64,9 @@ describe('Lesson 4', () => {
         const getPort_Safe = (file) =>
           lesson.tryCatch(() => fs.readFileSync(file))
             .map(c => lesson.tryCatch(() => JSON.parse(c))
-              // .fold(foldAfterTryCatch, c => c.port)
+              .fold(foldAfterTryCatch, c => c.port)
             )
-            .fold(e => 3000, c => c)
+            // .fold(e => 3000, c => c)
 
         console.log(getPort_Safe(GOOD_PATH))
         console.log(getPort_Safe(BAD_JSON))

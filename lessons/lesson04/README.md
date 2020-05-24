@@ -57,19 +57,23 @@ const getPort_Safe = (file) =>
     )
     .fold(e => 3000, c => c)
 
-console.log(getPort_Safe(GOOD_PATH)) -> Right([object Object])
-console.log(getPort_Safe(BAD_JSON))  -> Left(SyntaxError: Unexpected token ; in JSON at position 0)
-console.log(getPort_Safe(BAD_PATH))  -> 3000
+console.log(getPort_Safe(GOOD_PATH)) -> // Right([object Object])
+console.log(getPort_Safe(BAD_JSON))  -> // Left(SyntaxError: Unexpected token ; in JSON at position 0)
+console.log(getPort_Safe(BAD_PATH))  -> // 3000
 ```
 
 ## Example 3 - Without second `.fold()`
+Now we remove the last `.fold()` and you'll see that it's the inverse. kinda. It's only broken because now we aren't getting the data out as expected. 
+
 ```js
 const getPort_Safe = (file) =>
   lesson.tryCatch(() => fs.readFileSync(file))
     .map(c => lesson.tryCatch(() => JSON.parse(c))
       .fold(foldAfterTryCatch, c => c.port)
     )
-    .fold(e => 3000, c => c)
+    // Look, now I was removed!
 
-console.log(getPort_Safe(BAD_JSON)) // -> 3000
+console.log(getPort_Safe(GOOD_PATH)) -> // Right(8888)
+console.log(getPort_Safe(BAD_JSON))  -> // Right(3000)
+console.log(getPort_Safe(BAD_PATH))  -> // Left(Error: ENOENT: no such file or directory, open './foo.json')
 ```
