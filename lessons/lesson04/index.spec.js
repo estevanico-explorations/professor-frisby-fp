@@ -54,6 +54,8 @@ describe('Lesson 4', () => {
 
       it('will still work with using map and an intermediary .fold()', () => {
         const foldAfterTryCatch = c => 3000
+
+        // Toggle comments for above and this version to look at errors @ runtime.
         // const foldAfterTryCatch = c => {
         //   console.log(c.message)
         //   return 3000
@@ -62,13 +64,17 @@ describe('Lesson 4', () => {
         const getPort_Safe = (file) =>
           lesson.tryCatch(() => fs.readFileSync(file))
             .map(c => lesson.tryCatch(() => JSON.parse(c))
-              .fold(foldAfterTryCatch, c => c.port)
+              // .fold(foldAfterTryCatch, c => c.port)
             )
             .fold(e => 3000, c => c)
 
+        console.log(getPort_Safe(GOOD_PATH))
         console.log(getPort_Safe(BAD_JSON))
+        console.log(getPort_Safe(BAD_PATH))
 
-        expect(getPort_Safe(BAD_JSON)).to.equal(3000)
+        // expect(getPort_Safe(GOOD_PATH)).to.equal(8888)
+        // expect(getPort_Safe(BAD_JSON)).to.equal(3000)
+        // expect(getPort_Safe(BAD_PATH)).to.equal(3000)
       })
     })
   })
