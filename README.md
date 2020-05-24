@@ -18,7 +18,7 @@ I'm always trying to get better at Functional Programming and I want to go throu
 
 ## Commands
 | Command | Does? | Lesson | 
-|:------|:------------|
+|:------|:------------|:---|
 | `test` | Runs all the tests |
 | `test:watch` | Run all the tests and watch them |
 | `test:01` | `--watch` lesson 1 tests | Create linear data flow with container style types (Box) | 
