@@ -1,0 +1,1 @@
+## [Create types with Semigroups]()

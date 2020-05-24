@@ -29,24 +29,24 @@ I'm always trying to get better at Functional Programming and I want to go throu
 | `test:06` | `--watch` lesson 6 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
 | `test:07` | `--watch` lesson 7 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
 | `test:08` | `--watch` lesson 8 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
-| `test:09` | `--watch` lesson 8 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
-| `test:x` | `--watch` lesson X tests | Unbox types with foldMap | 
-| `test:x` | `--watch` lesson X tests | Delay Evaluation with LazyBox | 
-| `test:x` | `--watch` lesson X tests | Capture Side Effects in a Task | 
-| `test:x` | `--watch` lesson X tests | Use Task for Asynchronous Actions | 
-| `test:x` | `--watch` lesson X tests | You've been using Functors | 
-| `test:x` | `--watch` lesson X tests | Lift into a Pointed Functor with of | 
-| `test:x` | `--watch` lesson X tests | You've been using Monads | 
-| `test:x` | `--watch` lesson X tests | Build curried functions | 
-| `test:x` | `--watch` lesson X tests | Applicative Functors for multiple arguments | 
-| `test:x` | `--watch` lesson X tests | Apply multiple functors as arguments to a function (Applicatives) | 
-| `test:x` | `--watch` lesson X tests | List comprehensions with Applicative Functors | 
-| `test:x` | `--watch` lesson X tests | Write applicatives for concurrent actions | 
-| `test:x` | `--watch` lesson X tests | Leapfrogging types with Traversable | 
-| `test:x` | `--watch` lesson X tests | Maintaining structure whilst asyncing | 
-| `test:x` | `--watch` lesson X tests | Principled type conversions with Natural Transformations | 
-| `test:x` | `--watch` lesson X tests | Apply Natural Transformations in everyday work | 
-| `test:x` | `--watch` lesson X tests | Isomorphisms and round trip data transformations | 
-| `test:x` | `--watch` lesson X tests | Build a data flow for a real world app | 
-| `test:x` | `--watch` lesson X tests | Retrieve and use data from an api with pure functional constructs | 
-| `test:x` | `--watch` lesson X tests | Find the intersection of sets with Semigroups | 
+| `test:09` | `--watch` lesson 9 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
+| `test:10` | `--watch` lesson 10 tests | [Unbox types with foldMap](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson10) | 
+| `test:11` | `--watch` lesson 11 tests | [Delay Evaluation with LazyBox](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson11) | 
+| `test:12` | `--watch` lesson 12 tests | [Capture Side Effects in a Task](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson12) | 
+| `test:13` | `--watch` lesson 13 tests | [Use Task for Asynchronous Actions](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson13) | 
+| `test:14` | `--watch` lesson 14 tests | [You've been using Functors](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson14) | 
+| `test:15` | `--watch` lesson 15 tests | [Lift into a Pointed Functor with of](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson15) | 
+| `test:16` | `--watch` lesson 16 tests | [You've been using Monads](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson16) | 
+| `test:17` | `--watch` lesson 17 tests | [Build curried functions](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson17) | 
+| `test:18` | `--watch` lesson 18 tests | [Applicative Functors for multiple arguments](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson18) | 
+| `test:19` | `--watch` lesson 19 tests | [Apply multiple functors as arguments to a function (Applicatives)](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson19) | 
+| `test:20` | `--watch` lesson 20 tests | [List comprehensions with Applicative Functors](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson20) | 
+| `test:21` | `--watch` lesson 21 tests | [Write applicatives for concurrent actions](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson21) | 
+| `test:22` | `--watch` lesson 22 tests | [Leapfrogging types with Traversable](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson22) | 
+| `test:23` | `--watch` lesson 23 tests | [Maintaining structure whilst asyncing](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson23) | 
+| `test:24` | `--watch` lesson 24 tests | [Principled type conversions with Natural Transformations](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson24) | 
+| `test:25` | `--watch` lesson 25 tests | [Apply Natural Transformations in everyday work](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson25) | 
+| `test:26` | `--watch` lesson 26 tests | [Isomorphisms and round trip data transformations](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson26) | 
+| `test:27` | `--watch` lesson 27 tests | [Build a data flow for a real world app](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson27) | 
+| `test:28` | `--watch` lesson 28 tests | [Retrieve and use data from an api with pure functional constructs](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson28) | 
+| `test:29` | `--watch` lesson 29 tests | [Find the intersection of sets with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson29) | 
