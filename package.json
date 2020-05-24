@@ -1,0 +1,28 @@
+{
+  "name": "composablefunctionaljs",
+  "version": "1.0.0",
+  "description": "Composable Functional JS course from egghead",
+  "main": "lesson01.js",
+  "devDependencies": {
+    "@types/node": "^7.0.43",
+    "immutable": "^3.8.1"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfunkycold/composableFunctionalJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrfunkycold/composableFunctionalJS/issues"
+  },
+  "homepage": "https://github.com/mrfunkycold/composableFunctionalJS#readme",
+  "dependencies": {
+    "typescript": "^2.5.2"
+  }
+}
