@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mrpotatoes/professor-frisby-fp/master/fp-professor-frisby.jpg" />
+  <img src="https://raw.githubusercontent.com/mrpotatoes/professor-frisby-fp/master/assets/fp-professor-frisby.jpg" />
 </p>
 
 # professor-frisby-fp
@@ -21,11 +21,11 @@ I'm always trying to get better at Functional Programming and I want to go throu
 |:------|:------------|
 | `test` | Runs all the tests |
 | `test:watch` | Run all the tests and watch them |
-| `test:01` | Run lesson 1 |
-| `test:02` | Run lesson 2 |
-| `test:03` | Run lesson 3 |
-| `test:04` | Run lesson 4 |
-| `test:05` | Run lesson 5 |
-| `test:06` | Run lesson 6 |
-| `test:07` | Run lesson 7 |
-| `test:08` | Run lesson 8 |
+| `test:01` | Watch lesson 1 tests |
+| `test:02` | Watch lesson 2 tests |
+| `test:03` | Watch lesson 3 tests |
+| `test:04` | Watch lesson 4 tests |
+| `test:05` | Watch lesson 5 tests |
+| `test:06` | Watch lesson 6 tests |
+| `test:07` | Watch lesson 7 tests |
+| `test:08` | Watch lesson 8 tests |

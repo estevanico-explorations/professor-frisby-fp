@@ -1,28 +1,54 @@
 {
-  "name": "composablefunctionaljs",
+  "name": "professor-frisby-fp",
   "version": "1.0.0",
   "description": "Composable Functional JS course from egghead",
-  "main": "lesson01.js",
-  "devDependencies": {
-    "@types/node": "^7.0.43",
-    "immutable": "^3.8.1"
-  },
   "scripts": {
     "compile": "tsc",
     "watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter",
+    "test:watch": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter --watch",
+    "test:01": "mocha --require @babel/register --recursive ./lessons/lesson01 --reporter mocha-clearscreen-reporter --watch",
+    "test:02": "mocha --require @babel/register --recursive ./lessons/lesson02 --reporter mocha-clearscreen-reporter --watch",
+    "test:03": "mocha --require @babel/register --recursive ./lessons/lesson03 --reporter mocha-clearscreen-reporter --watch",
+    "test:04": "mocha --require @babel/register --recursive ./lessons/lesson04 --reporter mocha-clearscreen-reporter --watch",
+    "test:05": "mocha --require @babel/register --recursive ./lessons/lesson05 --reporter mocha-clearscreen-reporter --watch",
+    "test:06": "mocha --require @babel/register --recursive ./lessons/lesson06 --reporter mocha-clearscreen-reporter --watch",
+    "test:07": "mocha --require @babel/register --recursive ./lessons/lesson07 --reporter mocha-clearscreen-reporter --watch",
+    "test:08": "mocha --require @babel/register --recursive ./lessons/lesson08 --reporter mocha-clearscreen-reporter --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrfunkycold/composableFunctionalJS.git"
+    "url": "git+https://github.com/mrpotatoes/professor-frisby-fp.git"
   },
-  "author": "",
+  "author": "Andric LibreSinn",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrfunkycold/composableFunctionalJS/issues"
-  },
-  "homepage": "https://github.com/mrfunkycold/composableFunctionalJS#readme",
   "dependencies": {
     "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "immutable": "^3.8.1",
+    "mocha": "^7.2.0",
+    "mocha-clearscreen-reporter": "^1.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "@types/node": "^7.0.43"
   }
 }
