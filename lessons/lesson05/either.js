@@ -1,27 +1,40 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+/* deslint-disable-next-line no-unused-vars */
+/** 
+ * Convert getPort to use Either
+ * - JSON.parse can fail
+ */
+
+// const Either = Right || Left
+
 const Right = x => ({
-    map: f => Right(f(x)),
-    fold: (f, g) => g(x),
-    chain: f => f(x),
-    inspect: () => `Right(${x})`,
-});
-exports.Right = Right;
+  map: f => Right(f(x)),
+  fold: (f, g) => g(x),
+  chain: f => f(x),
+  inspect: () => `Right(${x})`,
+})
+
+/* eslint-disable no-unused-vars */
 const Left = x => ({
-    map: f => Left(x),
-    fold: (f, g) => f(x),
-    chain: f => Left(x),
-    inspect: () => `Left(${x})`,
-});
-exports.Left = Left;
-const fromNullable = x => x != null ? Right(x) : Left(null);
-exports.fromNullable = fromNullable;
+  map: f => Left(x),
+  fold: (f, g) => f(x),
+  chain: f => Left(x),
+  inspect: () => `Left(${x})`,
+})
+/* eslint-enable */
+
+const fromNullable = x => x != null ? Right(x) : Left(null)
+
 const tryCatch = f => {
-    try {
-        return Right(f());
-    }
-    catch (e) {
-        return Left(e);
-    }
-};
-exports.tryCatch = tryCatch;
+  try {
+    return Right(f())
+  } catch (e) {
+    return Left(e)
+  }
+}
+
+export {
+  Right,
+  Left,
+  fromNullable,
+  tryCatch
+}
