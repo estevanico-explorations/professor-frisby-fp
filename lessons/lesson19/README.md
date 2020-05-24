@@ -1,5 +1,4 @@
-## []()
-
+## [Apply multiple functors as arguments to a function (Applicatives)]()
 
 ```js
 //.....

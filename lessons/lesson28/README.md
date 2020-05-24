@@ -1,5 +1,4 @@
-## []()
-
+## [Retrieve and use data from an api with pure functional constructs]()
 
 ```js
 //.....

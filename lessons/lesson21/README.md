@@ -1,5 +1,4 @@
-## []()
-
+## [Write applicatives for concurrent actions]()
 
 ```js
 //.....

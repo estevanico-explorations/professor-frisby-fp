@@ -1,5 +1,4 @@
-## []()
-
+## [List comprehensions with Applicative Functors]()
 
 ```js
 //.....

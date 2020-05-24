@@ -1,5 +1,4 @@
-## []()
-
+## [Applicative Functors for multiple arguments]()
 
 ```js
 //.....

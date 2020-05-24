@@ -1,5 +1,4 @@
-## []()
-
+## [Leapfrogging types with Traversable]()
 
 ```js
 //.....

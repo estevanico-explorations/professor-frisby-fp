@@ -1,5 +1,4 @@
-## []()
-
+## [Lift into a Pointed Functor with of]()
 
 ```js
 //.....
