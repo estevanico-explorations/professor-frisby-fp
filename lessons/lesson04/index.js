@@ -1,22 +1,24 @@
 console.clear()
 
-const Right = (x) => ({
+import fs from 'fs'
+
+export const Right = (x) => ({
   chain: f => f(x),
   map: (f) => Right(f(x)),
   fold: (f, g) => g(x),
   inspect: () => `Right(${x})`,
 })
 
-const Left = (x) => ({
+export const Left = (x) => ({
   chain: f => Left(x),
   map: (f) => Left(x),
   fold: (f, g) => f(x),
   inspect: () => `Left(${x})`,
 })
 
-const fromNullable = (x) => x != null ? Right(x) : Left(null)
+export const fromNullable = (x) => x != null ? Right(x) : Left(null)
 
-const tryCatch = (f) => {
+export const tryCatch = (f) => {
   try {
     return Right(f())
   }
@@ -25,7 +27,7 @@ const tryCatch = (f) => {
   }
 }
 
-const getPort = () => tryCatch(() => fs.readFileSync('./config.json'))
+const getPort = () => tryCatch(() => fs.readFileSync('./data.json'))
   .chain(c => tryCatch(() => JSON.parse(c)))
   .fold(e => 3000, c => c.port)
 
