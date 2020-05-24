@@ -1,7 +1,6 @@
 /* eslint-disable */
 import chai, { expect } from 'chai'
-import daggy from 'daggy'
-import index from './index.js'
+import * lesson from './index.js'
 
 chai.should()
 

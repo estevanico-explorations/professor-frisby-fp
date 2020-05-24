@@ -1,6 +1,5 @@
 /* eslint-disable */
 import fs from 'fs'
-import daggy from 'daggy'
 import chai, { expect } from 'chai'
 import * as lesson from './index.js'
 

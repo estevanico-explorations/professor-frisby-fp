@@ -1,5 +1,3 @@
-console.clear()
-
 import fs from 'fs'
 
 // Something people won't like is the .fold() function to get the data
