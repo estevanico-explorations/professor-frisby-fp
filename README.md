@@ -19,34 +19,34 @@ I'm always trying to get better at Functional Programming and I want to go throu
 ## Commands
 | Command | Does? | Lesson | 
 |:------|:------------|:---|
-| `test` | Runs all the tests |
-| `test:watch` | Run all the tests and watch them |
-| `test:01` | `--watch` lesson 1 tests | Create linear data flow with container style types (Box) | 
-| `test:02` | `--watch` lesson 2 tests | Refactor imperative code to a single composed expression using Box |
-| `test:03` | `--watch` lesson 3 tests | Enforce a null check with composable code branching using Either |
-| `test:04` | `--watch` lesson 4 tests | Use chain for composable error handling with nested Eithers |
-| `test:05` | `--watch` lesson 5 tests | A collection of Either examples compared to imperative code |
-| `test:06` | `--watch` lesson 6 tests | Create types with Semigroups |
-| `test:07` | `--watch` lesson 7 tests | Semigroup examples |
-| `test:08` | `--watch` lesson 8 tests | Ensure failsafe combination using monoids |
-| `` | `--watch` lesson 8 tests | A curated collection of Monoids and their uses | 
-| `` | `--watch` lesson 8 tests | Unbox types with foldMap | 
-| `` | `--watch` lesson 8 tests | Delay Evaluation with LazyBox | 
-| `` | `--watch` lesson 8 tests | Capture Side Effects in a Task | 
-| `` | `--watch` lesson 8 tests | Use Task for Asynchronous Actions | 
-| `` | `--watch` lesson 8 tests | You've been using Functors | 
-| `` | `--watch` lesson 8 tests | Lift into a Pointed Functor with of | 
-| `` | `--watch` lesson 8 tests | You've been using Monads | 
-| `` | `--watch` lesson 8 tests | Build curried functions | 
-| `` | `--watch` lesson 8 tests | Applicative Functors for multiple arguments | 
-| `` | `--watch` lesson 8 tests | Apply multiple functors as arguments to a function (Applicatives) | 
-| `` | `--watch` lesson 8 tests | List comprehensions with Applicative Functors | 
-| `` | `--watch` lesson 8 tests | Write applicatives for concurrent actions | 
-| `` | `--watch` lesson 8 tests | Leapfrogging types with Traversable | 
-| `` | `--watch` lesson 8 tests | Maintaining structure whilst asyncing | 
-| `` | `--watch` lesson 8 tests | Principled type conversions with Natural Transformations | 
-| `` | `--watch` lesson 8 tests | Apply Natural Transformations in everyday work | 
-| `` | `--watch` lesson 8 tests | Isomorphisms and round trip data transformations | 
-| `` | `--watch` lesson 8 tests | Build a data flow for a real world app | 
-| `` | `--watch` lesson 8 tests | Retrieve and use data from an api with pure functional constructs | 
-| `` | `--watch` lesson 8 tests | Find the intersection of sets with Semigroups | 
+| `test` | Runs all the tests | `n/a` |
+| `test:watch` | Run all the tests and watch them | `n/a` |
+| `test:01` | `--watch` lesson 1 tests | [Create linear data flow with container style types (Box)](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson01) | 
+| `test:02` | `--watch` lesson 2 tests | [Refactor imperative code to a single composed expression using Box](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson02) |
+| `test:03` | `--watch` lesson 3 tests | [Enforce a null check with composable code branching using Either](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson03) |
+| `test:04` | `--watch` lesson 4 tests | [Use chain for composable error handling with nested Eithers](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson04) |
+| `test:05` | `--watch` lesson 5 tests | [A collection of Either examples compared to imperative code]https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05 |
+| `test:06` | `--watch` lesson 6 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
+| `test:07` | `--watch` lesson 7 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
+| `test:08` | `--watch` lesson 8 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
+| `test:09` | `--watch` lesson 8 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
+| `test:x` | `--watch` lesson X tests | Unbox types with foldMap | 
+| `test:x` | `--watch` lesson X tests | Delay Evaluation with LazyBox | 
+| `test:x` | `--watch` lesson X tests | Capture Side Effects in a Task | 
+| `test:x` | `--watch` lesson X tests | Use Task for Asynchronous Actions | 
+| `test:x` | `--watch` lesson X tests | You've been using Functors | 
+| `test:x` | `--watch` lesson X tests | Lift into a Pointed Functor with of | 
+| `test:x` | `--watch` lesson X tests | You've been using Monads | 
+| `test:x` | `--watch` lesson X tests | Build curried functions | 
+| `test:x` | `--watch` lesson X tests | Applicative Functors for multiple arguments | 
+| `test:x` | `--watch` lesson X tests | Apply multiple functors as arguments to a function (Applicatives) | 
+| `test:x` | `--watch` lesson X tests | List comprehensions with Applicative Functors | 
+| `test:x` | `--watch` lesson X tests | Write applicatives for concurrent actions | 
+| `test:x` | `--watch` lesson X tests | Leapfrogging types with Traversable | 
+| `test:x` | `--watch` lesson X tests | Maintaining structure whilst asyncing | 
+| `test:x` | `--watch` lesson X tests | Principled type conversions with Natural Transformations | 
+| `test:x` | `--watch` lesson X tests | Apply Natural Transformations in everyday work | 
+| `test:x` | `--watch` lesson X tests | Isomorphisms and round trip data transformations | 
+| `test:x` | `--watch` lesson X tests | Build a data flow for a real world app | 
+| `test:x` | `--watch` lesson X tests | Retrieve and use data from an api with pure functional constructs | 
+| `test:x` | `--watch` lesson X tests | Find the intersection of sets with Semigroups | 
