@@ -4,26 +4,26 @@ import daggy from 'daggy'
 import chai, { expect } from 'chai'
 import * as lesson from './index.js'
 
-const goodPath = './lessons/lesson04/_data.json'
-const badJSON = './lessons/lesson04/_invalid.json'
-const badPath = './foo.json'
+const GOOD_PATH = './lessons/lesson04/_data.json'
+const BAD_JSON = './lessons/lesson04/_invalid.json'
+const BAD_PATH = './foo.json'
 
 chai.should()
 
 describe('Lesson 4', () => {
   describe('Original state', () => {
     it('has a json file that exists and valid json', () => {
-      const port = lesson.getPort_Unsafe(goodPath)
+      const port = lesson.getPort_Unsafe(GOOD_PATH)
       expect(port).to.equal(8888)
     })
 
     it('has a json file that does not exist', () => {
-      const port = lesson.getPort_Unsafe(badPath)
+      const port = lesson.getPort_Unsafe(BAD_PATH)
       expect(port).to.equal(3000)
     })
 
     it('has a json file that exists and bad json', () => {
-      const port = lesson.getPort_Unsafe(badJSON)
+      const port = lesson.getPort_Unsafe(BAD_JSON)
       expect(port).to.equal(3000)
     })
   })
@@ -31,42 +31,61 @@ describe('Lesson 4', () => {
   describe('Middle state', () => {
     describe('Using the tryCatch() function', () => {
       it('runs w/o using .chain() and get data out using .fold()', () => {
-        const port = lesson.tryCatch(() => fs.readFileSync(goodPath))
+        const port = lesson.tryCatch(() => fs.readFileSync(GOOD_PATH))
 
         const config = port.fold(null, (e) => e.toString())
         expect(config).to.equal('{"port": 8888}') // Extra newline because of file.
       })
 
       it('still works with an existing file with good json', () => {
-        const port = lesson.getPort_MostlySafe(goodPath)
+        const port = lesson.getPort_MostlySafe(GOOD_PATH)
         expect(port).to.equal(8888)
       })
 
       it('returns a default when there is a bad path', () => {
-        const port = lesson.getPort_MostlySafe(badPath)
+        const port = lesson.getPort_MostlySafe(BAD_PATH)
         expect(port).to.equal(3000)
       })
 
       it('will throw an exception when the returned JSON is bad', () => {
-        const exceptionThrower = () => lesson.getPort_MostlySafe(badJSON)
+        const exceptionThrower = () => lesson.getPort_MostlySafe(BAD_JSON)
         expect(exceptionThrower).to.throw('Unexpected token ; in JSON at position 0')
-      })      
+      })
+
+      it('will still work with using map and an intermediary .fold()', () => {
+        const foldAfterTryCatch = c => 3000
+        // const foldAfterTryCatch = c => {
+        //   console.log(c.message)
+        //   return 3000
+        // }
+
+        const getPort_Safe = (file) =>
+          lesson.tryCatch(() => fs.readFileSync(file))
+            .map(c => lesson.tryCatch(() => JSON.parse(c))
+              .fold(foldAfterTryCatch, c => c.port)
+            )
+            .fold(e => 3000, c => c)
+
+        console.log(getPort_Safe(BAD_JSON))
+
+        expect(getPort_Safe(BAD_JSON)).to.equal(3000)
+      })
     })
   })
 
   describe('Final state', () => {
     it('has a json file that exists and valid json', () => {
-      const port = lesson.getPort_Safe(goodPath)
+      const port = lesson.getPort_Safe(GOOD_PATH)
       expect(port).to.equal(8888)
     })
 
     it('has a json file that does not exist', () => {
-      const port = lesson.getPort_Safe(badPath)
+      const port = lesson.getPort_Safe(BAD_PATH)
       expect(port).to.equal(3000)
     })
 
     it('has a json file that exists and bad json', () => {
-      const port = lesson.getPort_Safe(badJSON)
+      const port = lesson.getPort_Safe(BAD_JSON)
       expect(port).to.equal(3000)
     })
   })
