@@ -25,7 +25,7 @@ I'm always trying to get better at Functional Programming and I want to go throu
 | `test:02` | `--watch` lesson 2 tests | [Refactor imperative code to a single composed expression using Box](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson02) |
 | `test:03` | `--watch` lesson 3 tests | [Enforce a null check with composable code branching using Either](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson03) |
 | `test:04` | `--watch` lesson 4 tests | [Use chain for composable error handling with nested Eithers](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson04) |
-| `test:05` | `--watch` lesson 5 tests | [A collection of Either examples compared to imperative code]https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05 |
+| `test:05` | `--watch` lesson 5 tests | [A collection of Either examples compared to imperative code](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05) |
 | `test:06` | `--watch` lesson 6 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
 | `test:07` | `--watch` lesson 7 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
 | `test:08` | `--watch` lesson 8 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
