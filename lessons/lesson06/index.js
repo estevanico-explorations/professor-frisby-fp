@@ -1,6 +1,33 @@
-var lesson6;
-(function (lesson6) {
-    let res = [1, 2].concat([3, 4]).concat([5, 6]);
-    res = [1, 2].concat([3, 4].concat([5, 6]));
-    console.log(res);
-})(lesson6 || (lesson6 = {}));
+
+export const Sum = x => ({
+  x,
+  concat: ({ x: y }) => Sum(x + y),
+  inspect: `Sum(${x})`,
+})
+
+export const All = x => ({
+  x,
+  concat: ({ x: y }) => All(x && y),
+  inspect: `All(${x})`,
+})
+
+export const First = x => ({
+  x,
+  // eslint-disable-next-line no-unused-vars
+  concat: _ => First(x),
+  inspect: `First(${x})`,
+})
+
+export const True = {
+  x: true,
+  concat: (other) => other,
+  inspect: () => 'True'
+}
+
+export const False = ({
+  x: false,
+  // eslint-disable-next-line no-unused-vars
+  concat: (other) => False,
+  inspect: () => 'False'
+})
+

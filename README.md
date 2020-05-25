@@ -14,7 +14,9 @@ I think Prof Frisby explains it best when people ask why use these weird words:
 > - Professor Frisby (from the transcript)
 
 ## About
-This is supplimental to the egghead.io course. Each lesson directory has a readme with my own thoughts to each lesson. Student's notes if you will. It's in a `README.md` so you'll see it as soon as you click into each lesson. The code itself is run as a series of tests though `package.json`. Run the code to see each iteration.
+This is supplimental to the [egghead.io](https://egghead.io/) course. Each lesson directory has a readme with my own thoughts to each lesson. Student's notes if you will. It's in a `README.md` so you'll see it as soon as you click into each lesson. The code itself is run as a series of tests though `package.json`. Run the code to see each iteration.
+
+This is **_NOT_** a replacement for watching the videos and doing it yourself. This **_IS_** supplimental and a way for you to screw around with code so you don't have to write it yourself.
 
 ## My other FP Projects
 I'm always trying to get better at Functional Programming and I want to go through this course to learn more about it as I'm trying to strengthen my foundation. I am also, very slowly, putting together a guide to functional programming with it's own code as well. You can find that here: 

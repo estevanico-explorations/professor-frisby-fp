@@ -1,4 +1,3 @@
-/* eslint-disable */
 import chai, { expect } from 'chai'
 import * as lesson from './index.js'
 
