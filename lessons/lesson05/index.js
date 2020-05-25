@@ -1,5 +1,28 @@
 import fs from 'fs'
-import either_1 from './either'
+import { fromNullable, tryCatch } from './either'
+
+// eslint-disable-next-line no-unused-vars
+const renderPage = (c) => { console.log('renderPage()')}
+const showLogin = () => { console.log('showLogin()') }
+
+export const openSite1 = (currentUser) => {
+  if (currentUser) {
+    return renderPage(currentUser)
+  } else {
+    return showLogin()
+  }
+}
+
+export const openSite2 = (currentUser) => (
+  currentUser
+    ? renderPage(currentUser)
+    : showLogin()
+)
+
+export const openSiteFunc = (currentUser) => (
+  fromNullable(currentUser)
+    .fold(showLogin, renderPage)
+)
 
 export const streetName = user => {
   const address = user.address
@@ -13,9 +36,9 @@ export const streetName = user => {
 }
 
 export const streetNameFunc = user => {
-  either_1.fromNullable(user.address)
+  fromNullable(user.address)
     .map(address => address.street)
-    .chain(street => either_1.fromNullable(street))
+    .chain(street => fromNullable(street))
     .fold(() => 'no street', street => street.name)
 }
 
@@ -25,8 +48,7 @@ export const concatUniq = (x, ys) => {
 }
 
 export const concatUniqFunc = (x, ys) =>
-  either_1
-    .fromNullable(ys.filter(y => y === x)[0])
+  fromNullable(ys.filter(y => y === x)[0])
     .fold(() => ys.concat(x), ys)
 
 export const wrapExamples = example => {
@@ -39,8 +61,9 @@ export const wrapExamples = example => {
   return example
 }
 
-export const readFile = (path) => either_1.tryCatch(() => fs.readFileSync(path))
+export const readFile = (path) => tryCatch(() => fs.readFileSync(path))
 
-export const wrapExamplesFunc = example => either_1.fromNullable(example.previewPath)
-  .chain(readFile)
-  .fold(() => example, ex => Object.assign({ preview: example.previewPath }, ex))
+export const wrapExamplesFunc = example =>
+  fromNullable(example.previewPath)
+    .chain(readFile)
+    .fold(() => example, ex => Object.assign({ preview: example.previewPath }, ex))

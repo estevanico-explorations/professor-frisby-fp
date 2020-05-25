@@ -6,7 +6,7 @@
 
 // const Either = Right || Left
 
-const Right = x => ({
+export const Right = x => ({
   map: f => Right(f(x)),
   fold: (f, g) => g(x),
   chain: f => f(x),
@@ -14,7 +14,7 @@ const Right = x => ({
 })
 
 /* eslint-disable no-unused-vars */
-const Left = x => ({
+export const Left = x => ({
   map: f => Left(x),
   fold: (f, g) => f(x),
   chain: f => Left(x),
@@ -22,19 +22,12 @@ const Left = x => ({
 })
 /* eslint-enable */
 
-const fromNullable = x => x != null ? Right(x) : Left(null)
+export const fromNullable = x => x != null ? Right(x) : Left(null)
 
-const tryCatch = f => {
+export const tryCatch = f => {
   try {
     return Right(f())
   } catch (e) {
     return Left(e)
   }
-}
-
-export {
-  Right,
-  Left,
-  fromNullable,
-  tryCatch
 }
