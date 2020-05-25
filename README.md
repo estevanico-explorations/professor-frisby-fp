@@ -10,26 +10,28 @@ Playlist is located here: https://egghead.io/courses/professor-frisby-introduces
 ## About
 This is supplimental to the egghead.io course. Each lesson directory has a readme with my own thoughts to each lesson. Student's notes if you will. It's in a `README.md` so you'll see it as soon as you click into each lesson. The code itself is run as a series of tests though `package.json`. Run the code to see each iteration.
 
-## Other FP Projects
+## My other FP Projects
 I'm always trying to get better at Functional Programming and I want to go through this course to learn more about it as I'm trying to strengthen my foundation. I am also, very slowly, putting together a guide to functional programming with it's own code as well. You can find that here: 
 
 * [Documentation](https://mrpotatoes.github.io/functional-programming-in-js-reference)
 * [Repo](https://github.com/mrpotatoes/functional-programming-in-js-reference)
+
+_*NOTE*_: This repo will be merged into the other repo at some point after I finish this full playlist AND after i've finished the entirety of my "`Algebras (3/47 complete)`" section in my wiki/guide.
 
 ## Commands
 | Command | Does? | Lesson | 
 |:------|:------------|:---|
 | `test` | Runs all the tests | `n/a` |
 | `test:watch` | Run all the tests and watch them | `n/a` |
-| `test:01` | `--watch` lesson 1 tests | [Create linear data flow with container style types (Box)](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson01) | 
-| `test:02` | `--watch` lesson 2 tests | [Refactor imperative code to a single composed expression using Box](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson02) |
-| `test:03` | `--watch` lesson 3 tests | [Enforce a null check with composable code branching using Either](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson03) |
-| `test:04` | `--watch` lesson 4 tests | [Use chain for composable error handling with nested Eithers](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson04) |
-| `test:05` | `--watch` lesson 5 tests | [A collection of Either examples compared to imperative code](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05) |
-| `test:06` | `--watch` lesson 6 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
-| `test:07` | `--watch` lesson 7 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
-| `test:08` | `--watch` lesson 8 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
-| `test:09` | `--watch` lesson 9 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
+| `test:01` | `--watch` lesson 01 tests | [Create linear data flow with container style types (Box)](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson01) | 
+| `test:02` | `--watch` lesson 02 tests | [Refactor imperative code to a single composed expression using Box](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson02) |
+| `test:03` | `--watch` lesson 03 tests | [Enforce a null check with composable code branching using Either](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson03) |
+| `test:04` | `--watch` lesson 04 tests | [Use chain for composable error handling with nested Eithers](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson04) |
+| `test:05` | `--watch` lesson 05 tests | [A collection of Either examples compared to imperative code](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05) |
+| `test:06` | `--watch` lesson 06 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
+| `test:07` | `--watch` lesson 07 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
+| `test:08` | `--watch` lesson 08 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
+| `test:09` | `--watch` lesson 09 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
 | `test:10` | `--watch` lesson 10 tests | [Unbox types with foldMap](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson10) | 
 | `test:11` | `--watch` lesson 11 tests | [Delay Evaluation with LazyBox](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson11) | 
 | `test:12` | `--watch` lesson 12 tests | [Capture Side Effects in a Task](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson12) | 
