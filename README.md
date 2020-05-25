@@ -9,7 +9,7 @@ Playlist is located here: https://egghead.io/courses/professor-frisby-introduces
 
 I think Prof Frisby explains it best when people ask why use these weird words:
 
-> "WNow, why is it called the semigroup? Why isn't it just called a concatible or something?
+> "Now, why is it called the semigroup? Why isn't it just called a concatible or something?
 > That is a good question. The idea is semigroups come from abstract algebra and so we are encoding this in our code so we can keep the name the same and understand the laws and properties that come with this mathematical structure rather than just making something up on our own.
 > - Professor Frisby (from the transcript)
 
