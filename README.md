@@ -28,7 +28,7 @@ _*NOTE*_: This repo will be merged into the other repo at some point after I fin
 | `test:03` | `--watch` lesson 03 tests | [Enforce a null check with composable code branching using Either](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson03) |
 | `test:04` | `--watch` lesson 04 tests | [Use chain for composable error handling with nested Eithers](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson04) |
 | `test:05` | `--watch` lesson 05 tests | [A collection of Either examples compared to imperative code](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson05) |
-| `test:06` | `--watch` lesson 06 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson60) |
+| `test:06` | `--watch` lesson 06 tests | [Create types with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson06) |
 | `test:07` | `--watch` lesson 07 tests | [Semigroup examples](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson07) |
 | `test:08` | `--watch` lesson 08 tests | [Ensure failsafe combination using monoids](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson08) |
 | `test:09` | `--watch` lesson 09 tests | [A curated collection of Monoids and their uses](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson09) | 
