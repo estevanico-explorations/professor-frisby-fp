@@ -12,6 +12,9 @@
     },
     "sourceType": "module"
   },
+  "ignorePatterns": [
+    "assets/three-repos-to-use-as-reference/*"
+  ],
   "rules": {
     "constructor-super": "warn",
     "no-const-assign": "warn",
