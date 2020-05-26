@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/mrpotatoes/professor-frisby-fp/master/assets/fp-professor-frisby.jpg" />
 </p>
 
-# professor-frisby-fp
+# Professor Frisby FP
 Code from "Professor Frisby Introduces Composable Functional JavaScript"
 
 [Playlist is located here](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript). It is about 112min long so an easy night if you don't take notes. It's taking me significantly longer since I'm taking notes plus working on code.
