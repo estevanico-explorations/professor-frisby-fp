@@ -6,7 +6,15 @@ chai.should()
 describe('Lesson 1', () => {
   describe('bar', () => {
     it('baz', () => {
-      expect(1).to.equal(1)
+      const contated = lesson.rest.toJS()
+      
+      expect(contated.name.x).to.equal('Nico')
+      expect(contated.isPaid.x).to.equal(false)
+      expect(contated.points.x).to.equal(12)
+      
+      // This is the only one whose API doesn't use x because
+      // it's a plain array.
+      expect(contated.friends).to.deep.equal(['Franklin', 'Gatsby'])
     })
   })
 })
