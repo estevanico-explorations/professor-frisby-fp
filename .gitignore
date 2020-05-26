@@ -1,2 +1,7 @@
 node_modules
 .DS_Store
+
+# This is just for self. I copied a few to this directory, don't want to
+# commit each entire repo just an archive for now. Will remove when i've
+# finished the course.
+assets/three-repos-to-use-as-reference/
