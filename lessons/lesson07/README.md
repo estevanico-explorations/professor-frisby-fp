@@ -8,22 +8,22 @@ So given two objects (or dictionaries) in order to concat them we would want to 
 
 So we'd go from
 ```js
-const acct1 = Map({
-  name: First('Nico'),
-  isPaid: All(true),
-  points: Sum(10),
-  friends: ['Franklin']
-})
-```
-
-To this
-```js
 const acct1 = {
   name: 'Nico',
   isPaid: true,
   points: 10,
   friends: ['Franklin']
 }
+```
+
+To this
+```js
+const acct1 = Map({
+  name: First('Nico'),
+  isPaid: All(true),
+  points: Sum(10),
+  friends: ['Franklin']
+})
 ```
 
 Now when we concat `name`, `isPaid` or `points` we can handle it like we would for any 
