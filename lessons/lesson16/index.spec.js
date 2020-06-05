@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 16 - You\'ve been using Monads', () => {
   describe('Original state', () => {
     it('it', () => {
     })

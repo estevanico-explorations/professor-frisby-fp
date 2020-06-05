@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 17 - Build curried functions', () => {
   describe('Original state', () => {
     it('it', () => {
     })

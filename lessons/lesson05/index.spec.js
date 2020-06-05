@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson 1', () => {
+describe('Lesson 05 - A collection of Either examples compared to imperative code', () => {
   describe('bar', () => {
     it('baz', () => {
       expect(1).to.equal(1)

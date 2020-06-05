@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 19 - Apply multiple functors as arguments to a function (Applicatives)', () => {
   describe('Original state', () => {
     it('it', () => {
     })

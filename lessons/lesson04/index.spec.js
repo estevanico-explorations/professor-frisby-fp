@@ -8,7 +8,7 @@ const BAD_PATH = './foo.json'
 
 chai.should()
 
-describe('Lesson 4', () => {
+describe('Lesson 04 - Use chain for composable error handling with nested Eithers', () => {
   describe('Original state', () => {
     it('has a json file that exists and valid json', () => {
       const port = lesson.getPort_Unsafe(GOOD_PATH)

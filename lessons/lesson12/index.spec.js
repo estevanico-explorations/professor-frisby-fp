@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 12 - Capture Side Effects in a Task', () => {
   describe('Original state', () => {
     it('it', () => {
     })

@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 11 - Delay Evaluation with LazyBox', () => {
   describe('Original state', () => {
     it('it', () => {
     })

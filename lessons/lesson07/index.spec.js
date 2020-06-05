@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson 1', () => {
+describe('Lesson 07 - Semigroup examples', () => {
   describe('bar', () => {
     it('baz', () => {
       const contated = lesson.rest.toJS()

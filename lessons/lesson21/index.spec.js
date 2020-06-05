@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 21 - Write applicatives for concurrent actions', () => {
   describe('Original state', () => {
     it('it', () => {
     })

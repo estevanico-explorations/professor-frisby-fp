@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 13 - Use Task for Asynchronous Actions', () => {
   describe('Original state', () => {
     it('it', () => {
     })

@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 27 - Build a data flow for a real world app', () => {
   describe('Original state', () => {
     it('it', () => {
     })

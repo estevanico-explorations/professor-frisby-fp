@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 24 - Principled type conversions with Natural Transformations', () => {
   describe('Original state', () => {
     it('it', () => {
     })

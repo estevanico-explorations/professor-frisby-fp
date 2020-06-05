@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 20 - List comprehensions with Applicative Functors', () => {
   describe('Original state', () => {
     it('it', () => {
     })

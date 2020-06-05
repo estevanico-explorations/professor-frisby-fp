@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson 6', () => {
+describe('Lesson 06 - Create types with Semigroups', () => {
   describe('Different types of concat/semigroup examples', () => {
     describe('Sum(), All(), First()', () => {
       it('Sum()', () => {

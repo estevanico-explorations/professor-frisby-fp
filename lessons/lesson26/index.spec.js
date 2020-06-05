@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 26 - Isomorphisms and round trip data transformations', () => {
   describe('Original state', () => {
     it('it', () => {
     })

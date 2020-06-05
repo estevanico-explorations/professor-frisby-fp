@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 09 - A curated collection of Monoids and their uses', () => {
   describe('Original state', () => {
     it('it', () => {
     })

@@ -3,7 +3,7 @@ import * as lesson from './index.js'
 
 chai.should()
 
-describe('Lesson - ', () => {
+describe('Lesson 22 - Leapfrogging types with Traversable', () => {
   describe('Original state', () => {
     it('it', () => {
     })
