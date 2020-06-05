@@ -49,24 +49,4 @@ First.empty = _ => First(Left())
 export const find = (xs, f) => List(xs).foldMap(
   x => First(f(x) ? Right(x) : Left()),
   First.empty()
-)
-  .fold(x => x)
-
-// testing
-console.log(
-  'find([3,4,5,6,7], x => x > 4) : ',
-  find([3, 4, 5, 6, 7], x => x > 4)
-)
-// => Right(5)
-
-// // Reduce versions
-// export const sum = xs => xs.reduce((acc, x) => acc + x, 0)
-// export const all = xs => xs.reduce((acc, x) => acc && x, true)
-// export const first = xs => xs.reduce((acc, x) => acc)
-
-// console.log('sum([1,3,4]) : ', sum([1, 3, 4]))
-// console.log('all([true, false, true]) : ', all([true, false, true]))
-
-// // unsafe if empty array is provided,
-// // because no Monoid structure
-// console.log('first([1,3,4]) : ', first([1, 3, 4]))
+).fold(x => x)
