@@ -1,3 +1,4 @@
+// TODO: Finish lesson 11 index.spec.js
 import chai, { expect } from 'chai'
 import * as lesson from './index.js'
 

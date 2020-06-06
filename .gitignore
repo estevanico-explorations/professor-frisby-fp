@@ -1,6 +1,10 @@
 node_modules
 .DS_Store
 
+# This file only clutters repos and I super duper don't need it for this repo.
+# If you're using any of this code for product then that's on you. Dumbass.
+package-lock.json
+
 # This is just for self. I copied a few to this directory, don't want to
 # commit each entire repo just an archive for now. Will remove when i've
 # finished the course.

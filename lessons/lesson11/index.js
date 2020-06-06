@@ -1,3 +1,4 @@
+// TODO: Finish lesson 11 index.js
 // leaving old Box for comparison
 const Box = x => ({
   map: f => Box(f(x)),

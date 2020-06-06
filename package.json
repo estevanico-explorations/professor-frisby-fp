@@ -4,6 +4,7 @@
   "description": "Composable Functional JS course from egghead",
   "scripts": {
     "compile": "tsc",
+    "todo": "leasot -x --reporter markdown 'lessons/**/*.js' > TODO.md",
     "watch": "tsc --watch",
     "test": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter",
     "test:watch": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter --watch",
@@ -46,6 +47,7 @@
   "license": "ISC",
   "dependencies": {
     "immutable-ext": "^1.1.5",
+    "leasot": "^11.0.0",
     "typescript": "^2.5.2"
   },
   "devDependencies": {
