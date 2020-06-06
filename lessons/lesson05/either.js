@@ -1,10 +1,9 @@
-/* deslint-disable-next-line no-unused-vars */
 /** 
  * Convert getPort to use Either
  * - JSON.parse can fail
+ * 
+ * Either = Right || Left
  */
-
-// const Either = Right || Left
 
 export const Right = x => ({
   map: f => Right(f(x)),
@@ -13,14 +12,12 @@ export const Right = x => ({
   inspect: () => `Right(${x})`,
 })
 
-/* eslint-disable no-unused-vars */
 export const Left = x => ({
   map: f => Left(x),
   fold: (f, g) => f(x),
   chain: f => Left(x),
   inspect: () => `Left(${x})`,
 })
-/* eslint-enable */
 
 export const fromNullable = x => x != null ? Right(x) : Left(null)
 
