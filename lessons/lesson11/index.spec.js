@@ -6,6 +6,8 @@ chai.should()
 describe('Lesson 11 - Delay Evaluation with LazyBox', () => {
   describe('Original state', () => {
     it('it', () => {
+      console.log('A:', lesson.a)
+      console.log('B:', lesson.b)
     })
   })
 
