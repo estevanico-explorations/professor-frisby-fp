@@ -31,22 +31,22 @@ const nextCharForNumberString = str =>
   .fold(s => s.toLowerCase())
 
 console.log(
-  `LazyBox(_ => ' 64 ').fold(s => s) : `,
+  'LazyBox(_ => \' 64 \').fold(s => s) : ',
   LazyBox(_ => ' 64 ').fold(s => s)
 )
 
 console.log(
-  `LazyBox(_ => '       64       ').map(s => s.trim()).fold(s => s) : `,
+  'LazyBox(_ => \'       64       \').map(s => s.trim()).fold(s => s) : ',
   LazyBox(_ =>  '       64       ').map(s => s.trim()).fold(s => s)
 )
 
 console.log(
-  `LazyBox(_ => '       64       ').map(s => s.trim()).map(r => parseInt(r)).map(i => i + 1).fold(s => s) : `,
+  'LazyBox(_ => \'       64       \').map(s => s.trim()).map(r => parseInt(r)).map(i => i + 1).fold(s => s) : ',
   LazyBox(_ =>  '       64       ').map(s => s.trim()).map(r => parseInt(r)).map(i => i + 1).fold(s => s)
 )
 
 console.log(
-  "nextCharForNumberString(' 64 ') : ",
+  'nextCharForNumberString(\' 64 \') : ',
   nextCharForNumberString(' 64 ')
 )
 

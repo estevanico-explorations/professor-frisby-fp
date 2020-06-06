@@ -1,5 +1,5 @@
 {
-  "name": "professor-frisby-fp",
+  "name": "@mrpotatoes/professor-frisby-fp",
   "version": "1.0.0",
   "description": "Composable Functional JS course from egghead",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/mrpotatoes/professor-frisby-fp.git"
   },
   "author": "Andric LibreSinn",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "immutable-ext": "^1.1.5",
     "leasot": "^11.0.0",

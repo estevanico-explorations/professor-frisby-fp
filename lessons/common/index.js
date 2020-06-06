@@ -76,3 +76,5 @@ export const Left = x => ({
 export const fromNullable = x => x != null ? Right(x) : Left(null)
 
 export const Either = x => null == x ? Left(x) : Right(x)
+
+export const foldBox = box => box.fold(i => i)
