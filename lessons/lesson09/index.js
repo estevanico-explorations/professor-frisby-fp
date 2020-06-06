@@ -1,5 +1,3 @@
-/* ceslint-disable no-unused-vars */
-
 import { List } from 'immutable-ext'
 import { Right, Left } from '../common'
 
