@@ -8,7 +8,7 @@
     "watch": "tsc --watch",
     "test": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter",
     "test:watch": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter --watch",
-    "run-lesson": "./misc/run-lesson.sh"
+    "lesson": "./misc/run-lesson.sh"
   },
   "repository": {
     "type": "git",
