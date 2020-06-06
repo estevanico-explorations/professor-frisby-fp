@@ -8,13 +8,13 @@
 // The "x" variable will exist within this function
 // so long as the function exists in memory.
 const Box = x => ({
-	// Apply a function to the data.
-	map: f => Box(f(x)),
+  // Apply a function to the data.
+  map: f => Box(f(x)),
 
-	// Get the data out.
-	fold: f => f(x),
+  // Get the data out.
+  fold: f => f(x),
 
-	// Output.
-	inspect: () => `Box(`{x}`,
+  // Output.
+  inspect: () => `Box(`{x}`,
 })
 ```
