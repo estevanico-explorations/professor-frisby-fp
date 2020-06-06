@@ -133,8 +133,6 @@ describe('Lesson 09 - A curated collection of Monoids and their uses', () => {
       expect(First(Right(55)).inspect()).to.equal('First(Right(55))')
       expect(First(Right(111)).concat(First(Right(55))).inspect()).to.equal('First(Right(111))')
 
-      // TODO: Figure this out.
-      // I'm not sure if I did something wrong or if this is correct.
       expect(First.empty().concat(First(Right(55))).inspect()).to.equal('First(Right(55))')
     })
 
@@ -144,8 +142,6 @@ describe('Lesson 09 - A curated collection of Monoids and their uses', () => {
       it('find() first number bigger than 4', () => {
         const biggerThan4 = find([3, 4, 5, 6, 7], x => x > 4).fold(null, x => x)
 
-        // TODO: Figure this out.
-        // I'm not sure if I did something wrong or if this is correct.
         expect(biggerThan4).to.equal(5)
       })
     })
