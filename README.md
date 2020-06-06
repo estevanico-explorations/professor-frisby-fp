@@ -27,6 +27,8 @@ I'm always trying to get better at Functional Programming and I want to go throu
 _*NOTE*_: This repo will be merged into the other repo at some point after I finish this full playlist AND after i've finished the entirety of my "`Algebras (3/47 complete)`" section in my wiki/guide.
 
 ## Commands
+**_Note_**: Start any of these with `yarn` or `npm run`
+
 | Command | Does? | Lesson | 
 |:------|:------------|:---|
 | `test` | Runs all the tests | `n/a` |
