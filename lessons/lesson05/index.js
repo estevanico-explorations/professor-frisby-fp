@@ -1,9 +1,8 @@
 import fs from 'fs'
 import { fromNullable, tryCatch } from './either'
 
-// eslint-disable-next-line no-unused-vars
-const renderPage = (c) => { console.log('renderPage()')}
-const showLogin = () => { console.log('showLogin()') }
+const renderPage = (user) => `renderPage(${user})`
+const showLogin = () => 'showLogin()'
 
 export const openSite1 = (currentUser) => {
   if (currentUser) {
@@ -24,12 +23,17 @@ export const openSiteFunc = (currentUser) => (
     .fold(showLogin, renderPage)
 )
 
+// ---------------------------------------------------------------------------
+
 export const streetName = user => {
   const address = user.address
   if (address) {
     const street = address.street
     if (street) {
-      return street.name
+      const name = street.name
+      if (name) {
+        return name
+      }
     }
   }
   return 'no street'
@@ -42,6 +46,8 @@ export const streetNameFunc = user => {
     .fold(() => 'no street', street => street.name)
 }
 
+// ---------------------------------------------------------------------------
+
 export const concatUniq = (x, ys) => {
   const found = ys.filter(y => y === x)[0]
   return found ? ys : ys.concat(x)
@@ -50,6 +56,8 @@ export const concatUniq = (x, ys) => {
 export const concatUniqFunc = (x, ys) =>
   fromNullable(ys.filter(y => y === x)[0])
     .fold(() => ys.concat(x), ys)
+
+// ---------------------------------------------------------------------------
 
 export const wrapExamples = example => {
   if (example.previewPath) {
