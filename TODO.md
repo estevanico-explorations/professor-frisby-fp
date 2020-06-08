@@ -2,8 +2,6 @@
 | Filename | line # | TODO
 |:------|:------:|:------
 | [lessons/lesson05/index.spec.js](lessons/lesson05/index.spec.js#L1) | 1 | Make sure to fill this one out.
-| [lessons/lesson13/index.js](lessons/lesson13/index.js#L1) | 1 | Finish lesson file.
-| [lessons/lesson13/index.spec.js](lessons/lesson13/index.spec.js#L1) | 1 | Finish lesson file.import chai, { expect } from 'chai'
 | [lessons/lesson14/index.js](lessons/lesson14/index.js#L1) | 1 | Finish lesson file.
 | [lessons/lesson14/index.spec.js](lessons/lesson14/index.spec.js#L1) | 1 | Finish lesson file.
 | [lessons/lesson15/index.js](lessons/lesson15/index.js#L1) | 1 | Finish lesson file.
