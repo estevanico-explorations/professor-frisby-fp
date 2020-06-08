@@ -4,7 +4,7 @@
   "description": "Composable Functional JS course from egghead",
   "scripts": {
     "compile": "tsc",
-    "todo": "leasot -x --reporter markdown 'lessons/**/*.js' > TODO.md; git status",
+    "todo": "clear; leasot -x --reporter markdown 'lessons/**/*.js' > TODO.md; git diff TODO.md",
     "watch": "tsc --watch",
     "test": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter",
     "test:watch": "mocha --require @babel/register --recursive ./lessons/ --reporter mocha-clearscreen-reporter --watch",
