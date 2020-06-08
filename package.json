@@ -17,6 +17,7 @@
   "author": "Andric LibreSinn",
   "license": "MIT",
   "dependencies": {
+    "data.task": "^3.1.2",
     "immutable-ext": "^1.1.5",
     "leasot": "^11.0.0",
     "typescript": "^2.5.2"
