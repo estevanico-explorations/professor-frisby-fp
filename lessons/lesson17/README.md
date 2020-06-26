@@ -1,22 +1,5 @@
-## [Build curried functions]()
+## [Build curried functions](https://egghead.io/lessons/javascript-currying-with-examples)
 
-```js
-//.....
-```
+This isn't going to teach you currying. Go elsewhere.
 
-.....
-
-## Example 1 - 
-
-```js
-```
-
-## Example 2 - 
-
-```js
-```
-
-## Example 3 - 
-
-```js
-```
+Currying is dope as fuck tho.
