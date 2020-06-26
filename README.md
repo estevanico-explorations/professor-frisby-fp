@@ -1,3 +1,11 @@
+<!--
+  - https://github.com/avanslaars/learning-adts
+  - https://github.com/phenax/enum-fp
+  - https://github.com/pelotom/unionize
+  - https://github.com/z-pattern-matching/z
+  - 
+  - 
+-->
 <p align="center">
   <img src="https://raw.githubusercontent.com/mrpotatoes/professor-frisby-fp/master/misc/fp-professor-frisby.jpg" />
 </p>
