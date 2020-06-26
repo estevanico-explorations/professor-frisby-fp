@@ -26,6 +26,13 @@ httpGet('/user)
     httpGet(`/comments/${user.id}`)) // Task([Comment])
 ```
 
+## Chain is also associative
+```
+const m = Box(Box(Box(3)))
+
+expect(chain(m.map(chain))).to.equal(chain(chain(m)))
+```
+
 -----
 
 ## Advanced benefits
