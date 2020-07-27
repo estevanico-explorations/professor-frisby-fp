@@ -1,6 +1,4 @@
 import chai, { expect } from 'chai'
-import * as lesson from './index.js'
-
 import { Box, foldBox } from '../common'
 
 chai.should()
