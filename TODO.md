@@ -2,7 +2,6 @@
 | Filename | line # | TODO
 |:------|:------:|:------
 | [lessons/lesson05/index.spec.js](lessons/lesson05/index.spec.js#L1) | 1 | Make sure to fill this one out.
-| [lessons/lesson18/index.js](lessons/lesson18/index.js#L1) | 1 | Finish lesson this file.
 | [lessons/lesson18/index.spec.js](lessons/lesson18/index.spec.js#L1) | 1 | Finish lesson this file.
 | [lessons/lesson19/index.js](lessons/lesson19/index.js#L1) | 1 | Finish lesson this file.
 | [lessons/lesson19/index.spec.js](lessons/lesson19/index.spec.js#L1) | 1 | Finish lesson this file.
