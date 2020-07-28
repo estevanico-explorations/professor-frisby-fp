@@ -67,8 +67,8 @@ _*NOTE*_: This repo will be merged into the other repo at some point after I fin
 | `lesson 22` | `--watch` lesson 22 tests | [Leapfrogging types with Traversable](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson22) | 
 | `lesson 23` | `--watch` lesson 23 tests | [Maintaining structure whilst asyncing](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson23) | 
 | `lesson 24` | `--watch` lesson 24 tests | [Principled type conversions with Natural Transformations](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson24) | 
-| `lesson 25` | `--watch` lesson 25 tests | [Apply Natural Transformations in everyday work](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson25) | 
-| `lesson 26` | `--watch` lesson 26 tests | [Isomorphisms and round trip data transformations](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson26) | 
-| `lesson 27` | `--watch` lesson 27 tests | [Build a data flow for a real world app](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson27) | 
-| `lesson 28` | `--watch` lesson 28 tests | [Retrieve and use data from an api with pure functional constructs](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson28) | 
-| `lesson 29` | `--watch` lesson 29 tests | [Find the intersection of sets with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson29) | 
+| ~`lesson 25`~ | ~`--watch` lesson 25 tests~ | ~[Apply Natural Transformations in everyday work](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson25)~ | 
+| ~`lesson 26`~ | ~`--watch` lesson 26 tests~ | ~[Isomorphisms and round trip data transformations](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson26)~ | 
+| ~`lesson 27`~ | ~`--watch` lesson 27 tests~ | ~[Build a data flow for a real world app](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson27)~ | 
+| ~`lesson 28`~ | ~`--watch` lesson 28 tests~ | ~[Retrieve and use data from an api with pure functional constructs](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson28)~ | 
+| ~`lesson 29`~ | ~`--watch` lesson 29 tests~ | ~[Find the intersection of sets with Semigroups](https://github.com/mrpotatoes/professor-frisby-fp/tree/master/lessons/lesson29)~ | 
