@@ -13,8 +13,12 @@ const files = List([
   path.join(__dirname, 'README.md')
 ])
 
+const log = (list) => {
+  console.log(list.toString())
+}
+
 files.traverse(Task.of, fn => readFile(fn, 'utf-8'))
-  .fork(console.log, console.log)
+  .fork(console.log, log)
 
 
 // // readFilePromise :: String -> String -> Promise Error Buffer
