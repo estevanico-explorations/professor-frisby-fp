@@ -1,22 +1,18 @@
-## [Principled type conversions with Natural Transformations]()
+## [Principled type conversions with Natural Transformations](https://egghead.io/lessons/javascript-principled-type-conversions-with-natural-transformations)
 
-```js
-//.....
-```
+Basically, take one functor and turn it into another. ie `Either()` into a `Maybe()` or `Either()` into a `Task()`
 
-.....
+`F a -> G a`
 
-## Example 1 - 
+Look at the code to understand it better, otherwise the only interesting part here is the law.
 
-```js
-```
+## Laws
 
-## Example 2 - 
+`nt(x).map(f) == nt(x.map(f))`
 
-```js
-```
-
-## Example 3 - 
+![](./diagram.png)
 
 ```js
 ```
+
+

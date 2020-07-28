@@ -26,6 +26,8 @@ This is supplimental to the [egghead.io](https://egghead.io/) course. Each lesso
 
 This is **_NOT_** a replacement for watching the videos and doing it yourself. This **_IS_** supplimental and a way for you to screw around with code so you don't have to write it yourself.
 
+**_NOTE:_** There are lessons with an `index.js` that is included in the `index.spec.js`. Othertimes it only makes sense to have the `index.spec.js`.
+
 ## My other FP Projects
 I'm always trying to get better at Functional Programming and I want to go through this course to learn more about it as I'm trying to strengthen my foundation. I am also, very slowly, putting together a guide to functional programming with it's own code as well. You can find that here: 
 
